@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Patrick Hand", cursive;
+  background-image: url(../files/images/3776.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid snow;
+}
+.container section {
+  position: relative;
+}
+.container h1 {
+  position: absolute;
+  top: 1.5%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 99%;
+  height: 200px;
+  background-color: crimson;
+  padding: 35px 30px;
+  color: white;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 8em;
+}
+.container span {
+  color: #fff;
+  margin: 205px 50px 0 50px;
+  width: 200px;
+  padding: 50px 0;
+  font-size: 4em;
+  border-radius: 15px;
+  background-color: #0089ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+  bottom: -5%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+}
+/* .days-sec {
+  color: #fff;
+  margin: 200px 50px 0 50px;
+  width: 200px;
+  padding: 50px;
+  justify-content: center;
+  font-size: 3.5em;
+  display: flex;
+  align-items: flex-end;
+  background-color: #0089ff;
+  border-radius: 15px;
+}
+.hours-sec {
+  color: #fff;
+  margin: 200px 50px 0 50px;
+  width: 200px;
+  padding: 50px;
+  justify-content: center;
+  font-size: 3.5em;
+  display: flex;
+  align-items: flex-end;
+  background-color: #0089ff;
+  border-radius: 15px;
+}
+.minutes-sec {
+  color: #fff;
+  margin: 200px 50px 0 50px;
+  width: 200px;
+  padding: 50px;
+  justify-content: center;
+  font-size: 3.5em;
+  display: flex;
+  align-items: flex-end;
+  background-color: #0089ff;
+  border-radius: 15px;
+}
+.seconds-sec {
+  color: #fff;
+  margin: 200px 50px 0 50px;
+  width: 200px;
+  padding: 50px;
+  justify-content: center;
+  font-size: 3.5em;
+  display: flex;
+  align-items: flex-end;
+  background-color: #0089ff;
+  border-radius: 15px;
+} */
