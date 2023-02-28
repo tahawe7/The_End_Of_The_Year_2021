@@ -1,6 +1,9 @@
 // The End Of The Year Date Countdown
-let countDownDate = new Date("Dec 31, 2021 23:59:59").getTime();
-
+let countDownDate = new Date(
+  `Dec 31, ${new Date().getFullYear()} 23:59:59`
+).getTime();
+// let countDownDate = new Date(new Date().getFullYear());
+console.log(countDownDate);
 // Find The Date Difference Between Date Now And CountDown Date
 
 let counter = setInterval(() => {
